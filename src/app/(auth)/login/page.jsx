@@ -2,11 +2,11 @@ import React from 'react';
 
 const LoginPage = () => {
     return (
-       <div className='min-h-screen flex justify-center items-center bg-red-500'>
-  <div className='p-4 bg-white text-black'>
-    Log in
-  </div>
-</div>
+        <div className='container mx-auto min-h=[80vh] flex justify-center items-center bg-slate-300'>
+           <div className='p-4 rounded-xl bg-white'>
+            <h2 className='font-bold'>Login your account</h2>
+           </div>
+        </div>
     );
 };
 

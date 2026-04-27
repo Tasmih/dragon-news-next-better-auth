@@ -5,7 +5,7 @@
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "**",
+        hostname: "***",
         port:"",
        
       },

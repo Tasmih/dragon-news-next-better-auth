@@ -2,11 +2,11 @@ import Navbar from '@/componenets/shared/Navbar';
 import React from 'react';
 import { montserrat } from '../layout';
 
-const AuthLayout = ( {Children}   ) => {
+const AuthLayout = ( {children}   ) => {
     return (
         <div className={`${montserrat.className}`}>
          <Navbar/>
-         {Children}   
+         {children}   
         </div>
     );
 };

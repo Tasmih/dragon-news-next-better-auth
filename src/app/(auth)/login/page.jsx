@@ -17,12 +17,12 @@ const LoginPage = () => {
           <form className='space-y-4' onSubmit ={handleLoginFunc}>
               <fieldset className="fieldset">
                <legend className="fieldset-legend">Email</legend>
-               <input type="email" className="input" placeholder="Enter your email address" />
+               <input type="email" className="input" name="email" placeholder="Enter your email address" />
                 <p className="label"></p>
                </fieldset>
                <fieldset className="fieldset">
                <legend className="fieldset-legend">Password</legend>
-               <input type="password" className="input" placeholder="Enter your password" />
+               <input type="password" className="input" name="password" placeholder="Enter your password" />
                 <p className="label"></p>
                 <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl w-full bg-slate-800 text-white">Login</button>
                 <p className='mt-4'> Don't have an account? <Link href={'/register'} className='text-blue-500'>Register</Link></p>

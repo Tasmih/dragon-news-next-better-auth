@@ -29,7 +29,7 @@ const LoginPage = () => {
     };
 
     return (
-       to min-h-[80vh] flex justify-center items-center bg-slate-100'>
+        <div className='container mx-auto min-h-[80vh] flex justify-center items-center bg-slate-100'>
            <div className='p-4 rounded-xl bg-white'>
             <h2 className='font-bold text-center mb-6'>Login your account</h2>
 
